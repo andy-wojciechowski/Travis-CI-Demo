@@ -23,6 +23,9 @@ sudo: false # route your build to the container-based infrastructure for a faste
 cache: bundler # caching bundler gem packages will speed up build
 exclude: [vendor]
 
+install:
+- bundle install
+
 deploy:
   provider: pages
   skip-cleanup: true
