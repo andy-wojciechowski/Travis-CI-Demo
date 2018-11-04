@@ -3,7 +3,7 @@ rvm:
   - 2.4.1
 
 script:
-  - JEKYLL_ENV=production bundle exec jekyll build --destination 
+  - JEKYLL_ENV=production bundle exec jekyll build --destination site
   
 env:
   global:
