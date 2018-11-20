@@ -37,7 +37,7 @@ class SampleExcelGenerator < Jekyll::Generator
     def create_json_file(json)
         file_name = "#{path}/excelsamples.json"
         open(file_name, "wb") do |file|
-            file << JSON.generate(json)
+            file << json
         end
     end
 

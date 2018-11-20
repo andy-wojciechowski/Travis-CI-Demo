@@ -7,6 +7,6 @@ layout: home
 
 <ul>
 {% for sample in site.data.excelsamples %}
-<li>{{sample}}</li>
+<li>{{sample.FirstName}}</li>
 {% endfor %}
 </ul>
