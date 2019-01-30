@@ -4,3 +4,9 @@
 
 layout: home
 ---
+
+<ul>
+{% for sample in site.data.excelsamples %}
+<li>{{sample.FirstName}}</li>
+{% endfor %}
+</ul>
