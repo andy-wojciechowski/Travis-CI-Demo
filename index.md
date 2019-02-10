@@ -10,3 +10,4 @@ layout: home
 <li>{{sample.FirstName}}</li>
 {% endfor %}
 </ul>
+<div>{{ site.SampleConfigSetting }}</div>
